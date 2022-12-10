@@ -1,0 +1,20 @@
+data;
+set EXERCISE := Walking Jogging Swimming Machine Indoor Pushback; #create set EXERCISE which contains variables
+set LIMIT := Walking Jogging Machine; #create set LIMIT, limit exercises hours
+param Burn_off := 2000;  #assign 2000 hours/week to Burn_off
+param:          Cal :=   #assign calories to each exercises
+    Walking     100
+    Jogging     200
+    Swimming    300
+    Machine     150
+    Indoor      300
+    Pushback    500 ;
+param:          T_min   T_max :=  #assign tolerance to each exercises
+    Walking     1       5
+    Jogging     1       2
+    Swimming    1       3
+    Machine     1       3.5
+    Indoor      0       3
+    Pushback    0       0.5 ; 
+param Hour_limit := 4;   #assign 4 limited hour of exercise to Hour_limit
+
