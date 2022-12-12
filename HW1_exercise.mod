@@ -2,7 +2,7 @@ set EXERCISE; #declare set EXERCISE
 set LIMIT;    #declare set LIMIT
 param Cal {EXERCISE} >= 0;      #calories of each exercises >= 0
 param T_min {EXERCISE} >= 0;    #tolerance_min of each exercises >= 0
-param T_max {i in EXERCISE} >= T_min[i]; #tolerance_max >= 0
+param T_max {i in EXERCISE} >= T_min[i]; #tolerance_max >= tolerance_min
 param Burn_off >= 0;            #Burn_off >= 0 
 param Hour_limit >= 0;          #Hour_limit >= 0
 
