@@ -1,0 +1,16 @@
+data;
+set PRODUCT := A B C;
+param: SALE :=
+    A   6
+    B   8
+    C   13;
+param: LABOR :=
+    A   3
+    B   4
+    C   6;
+param: PURCHASE :=
+    A   1
+    B   1
+    C   1;
+param RAW_MAT := 60;
+param HOUR_MAX := 90;
