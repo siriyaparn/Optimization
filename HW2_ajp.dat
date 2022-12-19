@@ -1,5 +1,9 @@
 data;
+
+#create set
 set PRODUCT := A B C;
+
+#create parameter
 param: SALE :=
     A   6
     B   8
