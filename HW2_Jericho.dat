@@ -1,0 +1,17 @@
+data;
+
+#create set
+set INTERVAL := 1, 2, 3, 4, 5, 6;
+
+#create parameter
+param: BUS_MIN := 
+    1      4   
+    2      8
+    3      10
+    4      7
+    5      12
+    6      4;
+
+#create parameter for constraint
+param MOD_NUM := 6;
+param STEP := 1;
