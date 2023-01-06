@@ -1,0 +1,16 @@
+data;
+
+#create parameter
+param NumNode = 4;
+
+param cost :    1       2       3       4       :=
+        1       0       2       4       9999
+        2       9999    0       1       5   
+        3       9999    9999    0       2
+        4       9999    9999    9999    0;
+
+param demand := 
+        1       -1
+        2       0
+        3       0
+        4       1;
